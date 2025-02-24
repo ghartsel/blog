@@ -1,16 +1,14 @@
 ---
-author: AUTHOR NAME
-date: '2021-07-20T13:56:01-08:00'
-type: post
 title: More math
 subtitle: 'Wow this really works !'
+date: '2021-07-20T13:56:01-08:00'
 toc: true
+weight: 120
 math: true
-categories:
-  - katex
-  - latex
-  - tufte-css
+hideDate: true
+hideReadTime: true
 ---
+
 A compilation of `$\LaTeX$` formulas...
 <!--more-->
 

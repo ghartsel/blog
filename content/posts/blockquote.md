@@ -1,8 +1,13 @@
 ---
-author: Hiro Protagonist
-date: '2015-01-19T23:57:58-08:00'
-hasMath: false
 title: Blockquotes
+subtitle: A CSS library for creating beautiful Tufte-inspired HTML documents.
+description: "If the description field is not empty, its contents will show in the home page instead of the first 140 characters of the post."
+date: '2015-01-19T23:57:58-08:00'
+toc: false
+weight: 140
+hasMath: false
+hideDate: true
+hideReadTime: true
 ---
 
 Below is a blockquote.

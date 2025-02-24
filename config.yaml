@@ -11,7 +11,7 @@ hasCJKLanguage: true
 baseurl: "https://github.com/ghartsel/blog"
 #baseurl: "https://hugo-tufte.netlify.app/"
 # The title of your website (shown on all the pages)
-title: "λιτότητας"
+title: "λιτότης"
 canonifyurls: true
 # Number of posts per page on the home page
 #paginate: 5

@@ -7,8 +7,8 @@ languageCode: en-US
 # If you write Chinese, Japanese or Korean, this helps with word counting
 hasCJKLanguage: true
 # The url of your website
-baseurl: "http://localhost:1313/"
-#baseurl: "https://github.com/ghartsel/blog"
+#baseurl: "http://localhost:1313/"
+baseurl: "https://github.com/ghartsel/blog"
 # The title of your website (shown on all the pages)
 title: "λιτότης"
 canonifyurls: true

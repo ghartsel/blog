@@ -8,7 +8,8 @@ languageCode: en-US
 hasCJKLanguage: true
 # The url of your website
 #baseurl: "http://localhost:1313/"
-baseurl: "https://github.com/ghartsel/blog"
+#baseurl: "https://github.com/ghartsel/blog"
+baseurl: "https://hugo-tufte.netlify.app/"
 # The title of your website (shown on all the pages)
 title: "λιτότητας"
 canonifyurls: true

@@ -1,1 +1,3 @@
-# blog
+# litotes
+
+In rhetoric, litotes (/laɪˈtoʊtiːz, ˈlaɪtətiːz/, US: /ˈlɪtətiːz/), also known classically as antenantiosis or moderatour, is a figure of speech and form of irony in which understatement is used to emphasize a point by stating a negative to further affirm a positive, often incorporating double negatives for effect. A form of understatement, litotes can be in the form of meiosis, and is always deliberate with the intention of emphasis. However, the interpretation of negation may depend on context, including cultural context. In speech, litotes may also depend on intonation and emphasis; for example, the phrase "not bad" can be intonated differently so as to mean either "mediocre" or "excellent". Along the same lines, litotes can be used (as a form of auxesis), to euphemistically provide emphasis by diminishing the harshness of an observation ...

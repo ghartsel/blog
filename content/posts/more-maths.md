@@ -2,7 +2,6 @@
 title: More math
 subtitle: 'Wow this really works !'
 date: '2021-07-20T13:56:01-08:00'
-toc: true
 weight: 120
 math: true
 hideDate: true

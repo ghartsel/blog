@@ -3,7 +3,6 @@ title: Tufte CSS
 subtitle: A CSS library for creating beautiful Tufte-inspired HTML documents.
 description: "If the description field is not empty, its contents will show in the home page instead of the first 140 characters of the post."
 date: '2023-04-17T16:03:45+0100'
-toc: false
 weight: 100
 meta: true
 math: true

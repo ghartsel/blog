@@ -3,7 +3,6 @@ title: "Indirectly Speaking"
 subtitle: A CSS library for creating beautiful Tufte-inspired HTML documents.
 description: "If the description field is not empty, its contents will show in the home page instead of the first 140 characters of the post."
 date: "2014-03-29"
-toc: false
 weight: 160
 meta: false
 math: false
@@ -37,7 +36,7 @@ The term "level of indirection" is also commonly used when discussing this patte
 
 In academic computer science literature, you might also encounter terms like "dynamic dispatch" or "indirect invocation" to describe this mechanism of runtime function selection and execution.
 
-# Array of Dictionaries
+## Array of Dictionaries
 
 How do I define an array of dictionaries in python? In Python, you can define an array (or more accurately, a list) of dictionaries like this:
 
@@ -55,7 +54,7 @@ Here’s a breakdown:
 - Dictionaries contain key-value pairs separated by colons.
 - The list is enclosed in square brackets [], with dictionaries separated by commas.
 
-## Accessing Array Elements
+### Accessing Array Elements
 
 You can access individual dictionaries or their values:
 
@@ -69,7 +68,7 @@ value = array_of_dicts[0]["key1"]
 print(value)  # Output: 'value1'
 ```
 
-## Adding to the Array
+### Adding to the Array
 
 You can add a new dictionary to the list using the append method:
 
@@ -121,7 +120,7 @@ if "key1" in my_dict:
     print(my_dict["key1"])  # Output: "value1"
 ```
 
-# Implementing a State Machine using Indirect Reference
+## Implementing a State Machine using Indirect Reference
 
 How can the following python code that implements a state machine be improved, and could you share the Python code for the state machine?
 
@@ -177,7 +176,7 @@ This implementation is functional but has room for improvement in terms of reada
 - Improve Transition Table Representation. The state-transition table could use named tuples, enums, or a dictionary to make the code more intuitive and maintainable.
 
 
-## Refactored Code
+### Refactored Code
 
 Here's a refactored version:
 
@@ -229,7 +228,7 @@ Improvements explained:
 
 Can you rewrite the code defining events as literals instead of integers? Certainly. Defining events as literals improves code readability and makes it easier to understand the purpose of each event. Here's the refactored code using event literals:
 
-## Refactored Code with Event Literals
+### Refactored Code with Event Literals
 
 ```python
 from typing import Callable, Any
@@ -303,7 +302,7 @@ This approach ensures better readability and reduces the likelihood of bugs caus
 
 Can you rewrite the code also defining states as literals instead of integers? Certainly. Defining states as literals improves readability and makes the state machine easier to maintain. Here's the refactored code with both states and events defined as literals:
 
-## Refactored Code with State and Event Literals
+### Refactored Code with State and Event Literals
 
 ```python
 from typing import Any

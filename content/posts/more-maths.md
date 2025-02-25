@@ -2,7 +2,7 @@
 title: More math
 subtitle: 'Wow this really works !'
 date: '2021-07-20T13:56:01-08:00'
-weight: 120
+weight: 150
 math: true
 hideDate: true
 hideReadTime: true

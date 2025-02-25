@@ -3,7 +3,7 @@ title: "Indirectly Speaking"
 subtitle: A CSS library for creating beautiful Tufte-inspired HTML documents.
 description: "If the description field is not empty, its contents will show in the home page instead of the first 140 characters of the post."
 date: "2014-03-29"
-weight: 160
+weight: 130
 meta: false
 math: false
 hideDate: true

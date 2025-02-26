@@ -1,6 +1,9 @@
 ---
 title: More math
 subtitle: 'Wow this really works !'
+description: |
+  This is a multi-line description.
+  Each line will be preserved.
 date: '2021-07-20T13:56:01-08:00'
 weight: 150
 math: true

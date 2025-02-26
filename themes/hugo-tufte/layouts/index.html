@@ -19,6 +19,9 @@
   {{ end }}
   </h2>
 
+  {{- if .Params.subtitle -}}
+  <p class=subtitle>{{ .Params.subtitle }}</p>
+  {{- end -}}
   {{ if .Description }}
   <p>{{ .Description }}</p>
   {{ else }}

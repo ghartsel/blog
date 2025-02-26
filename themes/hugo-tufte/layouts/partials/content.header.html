@@ -2,9 +2,11 @@
 <h1 class="content-title">
 {{- .Title -}}{{- if .Draft -}}&nbsp;:: Draft{{- end -}}
 </h1>
+{{/*
 {{- if .Params.subtitle -}}
 <p class=subtitle>{{ .Params.subtitle }}</p>
 {{- end -}}
+*/}}
 
 {{- if and (.IsPage) (.Params.meta) -}}
 <span class="content-meta">

@@ -11,21 +11,46 @@ hideDate: true
 hideReadTime: true
 ---
 
+To learn the few simple techniques that can improve your writing by an order of magnitude.
+
 ## Things We Think About When We Think About Writing
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur aspernatur omnis iste. Voluptates, id inventore ea natus ab sed amet ipsa ratione sunt dignissimos. Soluta illum aliquid repellendus recusandae.
+
+image: whatWeThinkAbout.png
 
 ## The Problem
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur aspernatur omnis iste. Voluptates, id inventore ea natus ab sed amet ipsa ratione sunt dignissimos. Soluta illum aliquid repellendus recusandae.
 
+- image: problem-1.png
+- image: problem-2.png
+
 ## Topics – A High-level Solution
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur aspernatur omnis iste. Voluptates, id inventore ea natus ab sed amet ipsa ratione sunt dignissimos. Soluta illum aliquid repellendus recusandae.
+Properties:
+
+- Modular:
+    - Discrete (standalone)
+    - Coherent
+    - Comprehensive/comprehensible
+- Independent: reduced complexity
+    - Easy to create
+    - Easy to change
+    - Easy to organize (relationships)
+    - Easy to navigate
+
+Types:
+
+- Concept: Descriptive background
+- Task: Procedural
+- Reference: Explanatory, structured
 
 ### Restructuring as Topics
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur aspernatur omnis iste. Voluptates, id inventore ea natus ab sed amet ipsa ratione sunt dignissimos. Soluta illum aliquid repellendus recusandae.
+before: concept and task mixed
+after: concept
+after: task
 
 ### Topic Checklist
 
@@ -33,23 +58,53 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur
 
 ## Form
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur aspernatur omnis iste. Voluptates, id inventore ea natus ab sed amet ipsa ratione sunt dignissimos. Soluta illum aliquid repellendus recusandae.
+Pyramid
+
+- Introduction
+- Background
+- Discussion
+- Conclusion
+
+Inverted Pyramid
+
+- Main topic
+- Details (in order of importance, drill-down)
+    - from journalism ~
+    - becoming more prevalent on the Web ~
 
 ## Try to Find the Content
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur aspernatur omnis iste. Voluptates, id inventore ea natus ab sed amet ipsa ratione sunt dignissimos. Soluta illum aliquid repellendus recusandae.
 
+- Navigation
+- Search
+- Index
+
+"Spatial adjacency is more powerful than temporal stacking.”
+
+"Spatial adjacency greatly reduces the memory problems associated with making comparisons of small
+amounts of information stacked in time."
+
+~ Edward Tufte
+
 ### Content Complications, if any
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur aspernatur omnis iste. Voluptates, id inventore ea natus ab sed amet ipsa ratione sunt dignissimos. Soluta illum aliquid repellendus recusandae.
+- Meaning and/or usability obscured by choice of structure
+- Including a new idea of less importance (distraction)
+- Failure to identify target audience
+
+    - User vs. Maintainer
+    - Beginner vs. Advanced
 
 ## Minimalism: Fine Granularity Structuring
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur aspernatur omnis iste. Voluptates, id inventore ea natus ab sed amet ipsa ratione sunt dignissimos. Soluta illum aliquid repellendus recusandae.
+The essence of minimalist theory is that if you give the learner less (less to read, less overhead, less to get tangled in), the learner will achieve more (Carroll, 1984)
+
+The 4 principles
 
 ## Common Problem Areas
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur aspernatur omnis iste. Voluptates, id inventore ea natus ab sed amet ipsa ratione sunt dignissimos. Soluta illum aliquid repellendus recusandae.
+Low-level minimalism ... and more (the following)
 
 ### Simplify These Words
 
@@ -71,6 +126,11 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur aspernatur omnis iste. Voluptates, id inventore ea natus ab sed amet ipsa ratione sunt dignissimos. Soluta illum aliquid repellendus recusandae.
 
+| col 1              | col 2           |
+| ------------------ | --------------- |
+| as well as         | by means of     |
+| in order to        | in the event of |
+
 ### Prepositions
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur aspernatur omnis iste. Voluptates, id inventore ea natus ab sed amet ipsa ratione sunt dignissimos. Soluta illum aliquid repellendus recusandae.
@@ -85,15 +145,15 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur
 
 ## Tools
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur aspernatur omnis iste. Voluptates, id inventore ea natus ab sed amet ipsa ratione sunt dignissimos. Soluta illum aliquid repellendus recusandae.
+- grammarly
+- vale
+- (hemingway)
 
 ## Quick Tips
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur aspernatur omnis iste. Voluptates, id inventore ea natus ab sed amet ipsa ratione sunt dignissimos. Soluta illum aliquid repellendus recusandae.
 
-### Making Intros Easy
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur aspernatur omnis iste. Voluptates, id inventore ea natus ab sed amet ipsa ratione sunt dignissimos. Soluta illum aliquid repellendus recusandae.
+the following
 
 ### Definitions
 
@@ -105,7 +165,9 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur
 
 ## Edit, Edit, Edit
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur aspernatur omnis iste. Voluptates, id inventore ea natus ab sed amet ipsa ratione sunt dignissimos. Soluta illum aliquid repellendus recusandae.
+“... you must write it, rewrite it, and re-rewrite it several times ... That's all there is to it.”
+
+Paul R. Halmos. How to write mathematics. Enseign. Math., 16:123-152, 1970
 
 ## Additional Reading
 

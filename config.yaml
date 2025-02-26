@@ -46,7 +46,7 @@ params:
   # Site wide kill switch for date in pages
   hidedate: false
   # Site wide kill switch for post summary on home page
-  showSummary: true
+  showSummary: false
   # Site wide kill switch for LaTeX support
   math: true
   KaTeXVersion: 0.16.4

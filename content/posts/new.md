@@ -1,7 +1,9 @@
 ---
 title: "Just another sample post"
 subtitle: A CSS library for creating beautiful Tufte-inspired HTML documents.
-description: "If the description field is not empty, its contents will show in the home page instead of the first 140 characters of the post."
+description: |
+  This is a multi-line description.
+  Each line will be preserved.
 date: "2014-03-29"
 toc: false
 weight: 160

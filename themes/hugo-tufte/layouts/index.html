@@ -23,10 +23,10 @@
   <p class=subtitle>{{ .Params.subtitle }}</p>
   {{- end -}}
   {{ if .Description }}
-  <p>{{ .Description }}</p>
+  <blockquote style="width:50%;">{{ .Description }}</blockquote>
   {{ else }}
   {{ if .Site.Params.showSummary }}
-  <p>{{ truncate 140 .Summary }}</p>
+  <blockquote style="width:50%;">{{ truncate 140 .Summary }}</blockquote>
   {{ end }}
   {{ end }}
 {{ end }}

@@ -45,6 +45,10 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur
 
 ## Pyramids as Structure
 
+The pyramid documentation structure makes content more accessible; it also helps with search engine optimization and complies with web accessibility guidelines.
+
+The inverted pyramid refers to a story structure where the most important information (or what might even be considered the conclusion) is presented first. In this case, the first paragraph, often found right after the title, helps advanced users understand the key points, and all users make a choice whether this particular topic will provide them with the answer they are looking for.
+
 Pyramid
 
 - Introduction
@@ -54,12 +58,18 @@ Pyramid
 
 Inverted Pyramid
 
+order 1
+
 - Main topic
 - Details (in order of importance, drill-down)
-    - from journalism ~
-    - becoming more prevalent on the Web ~
 
-## Temporal and Spatial Presentation of Content
+order 2
+
+- context
+- concept
+- resolution
+
+## Temporal vs. Spatial Presentation of Content
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur aspernatur omnis iste. Voluptates, id inventore ea natus ab sed amet ipsa ratione sunt dignissimos. Soluta illum aliquid repellendus recusandae.
 
@@ -108,9 +118,9 @@ task
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur aspernatur omnis iste. Voluptates, id inventore ea natus ab sed amet ipsa ratione sunt dignissimos. Soluta illum aliquid repellendus recusandae.
 
-## Final Thoughts on Structure
+## Form and Function
 
-tbd
+Any existing document can be improved.
 
 ### Headings
 

@@ -69,6 +69,72 @@ order 2
 - concept
 - resolution
 
+## Pyramid and Inverted Pyramid: Structuring Documentation for Clarity and Impact
+
+In the world of technical writing, how you structure your content can make all the difference in how easily users can find and understand the information they need. Two powerful structures borrowed from journalism—the **pyramid** and the **inverted pyramid**—offer distinct approaches to organizing documentation. Each has its strengths, and choosing the right one depends on your audience and the purpose of your content.
+
+### The Pyramid Structure: Building from the Ground Up
+
+The **pyramid structure** is a traditional approach that builds information gradually, starting with an introduction and ending with a conclusion. This method is particularly effective for guiding users through complex topics, providing context, and ensuring a logical flow of information.
+
+Here’s how the pyramid structure breaks down:
+
+1. **Introduction**: Start with an overview of the topic, setting the stage for what’s to come.
+2. **Background**: Provide context, history, or foundational knowledge to help users understand the topic.
+3. **Discussion**: Dive into the details, exploring the topic in depth and addressing key points.
+4. **Conclusion**: Summarize the main takeaways and provide next steps or additional resources.
+
+This structure is ideal for **conceptual topics** or documentation aimed at **beginners**, as it ensures users have the necessary background before diving into the details. It also aligns well with **search engine optimization (SEO)** and **web accessibility guidelines**, making it easier for users to find and navigate your content.
+
+### The Inverted Pyramid: Starting with the Essentials
+
+The **inverted pyramid structure**, on the other hand, flips the traditional approach on its head. It starts with the most important information—often the conclusion or key takeaway—and then drills down into supporting details. This structure is particularly useful for **task-oriented documentation** or content aimed at **advanced users** who want to get straight to the point.
+
+Here’s how the inverted pyramid works:
+
+1. **Main Topic**: Begin with the most critical information, such as the solution to a problem or the key steps in a process.
+2. **Details (in order of importance)**: Provide supporting information, drilling down into specifics as needed.
+3. **Context**: Offer additional background or context for users who need it.
+4. **Concept**: Explain the underlying principles or concepts, if relevant.
+5. **Resolution**: Conclude with any final notes, tips, or next steps.
+
+The inverted pyramid is especially effective for **web-based documentation**, where users often scan for information quickly. By presenting the most important details first, you help users decide whether the topic is relevant to their needs and allow them to dive deeper if necessary.
+
+### Choosing the Right Structure
+
+Both the pyramid and inverted pyramid structures have their place in technical writing, and the choice between them depends on your audience and the type of content you’re creating:
+
+- **Use the pyramid structure** when:
+  - You’re introducing a complex or unfamiliar topic.
+  - Your audience includes beginners who need context and background.
+  - You want to guide users through a logical progression of ideas.
+
+- **Use the inverted pyramid structure** when:
+  - You’re documenting a task, process, or solution.
+  - Your audience includes advanced users who want quick answers.
+  - You’re creating web-based content that needs to be scannable and SEO-friendly.
+
+### Example: Applying the Structures to Vega Documentation
+
+Let’s say you’re writing documentation for **Vega**, a powerful tool for creating custom visualizations. Here’s how you might apply each structure:
+
+**Pyramid Structure (Conceptual Topic)**:
+1. **Introduction**: What is Vega, and why is it useful for data visualization?
+2. **Background**: A brief history of Vega and its relationship to the MapD platform.
+3. **Discussion**: Key features of Vega, such as its JSON-based specification and support for SQL queries.
+4. **Conclusion**: How Vega can help users visualize data at scale, with links to additional resources.
+
+**Inverted Pyramid Structure (Task-Oriented Topic)**:
+1. **Main Topic**: How to create a Vega visualization using SQL queries.
+2. **Details**: Step-by-step instructions for writing the SQL query and defining the Vega JSON specification.
+3. **Context**: Why SQL queries are useful for data exploration in Vega.
+4. **Concept**: An overview of how Vega renders visualizations directly on the GPU.
+5. **Resolution**: Tips for optimizing your Vega visualizations and troubleshooting common issues.
+
+### Conclusion
+
+Whether you choose the pyramid or inverted pyramid structure, the goal is the same: to make your documentation **clear, accessible, and user-friendly**. By understanding the strengths of each approach and tailoring your structure to your audience and content, you can create documentation that not only meets users’ needs but also enhances their overall experience. After all, great documentation isn’t just about what you say—it’s about how you say it.
+
 ## Temporal vs. Spatial Presentation of Content
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur aspernatur omnis iste. Voluptates, id inventore ea natus ab sed amet ipsa ratione sunt dignissimos. Soluta illum aliquid repellendus recusandae.
@@ -82,6 +148,58 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur
 {{< blockquote author="Edward Tufte" cite="" >}}
 Spatial adjacency greatly reduces the memory problems associated with making comparisons of small amounts of information stacked in time.
 {{< /blockquote >}}
+
+## Tufte’s Concept: Temporal Stacking vs. Spatial Adjacency in Technical Writing
+
+When it comes to presenting information effectively, the way you organize and display content can have a significant impact on how users understand and interact with it. Edward Tufte, a pioneer in the field of data visualization and information design, introduced the concept of **temporal stacking** versus **spatial adjacency** to highlight the importance of structure in communication. This concept is particularly relevant to technical writing, where clarity and usability are paramount.
+
+### Temporal Stacking: Information Over Time
+
+**Temporal stacking** refers to presenting information sequentially, where users must navigate through content over time to access different pieces of information. Think of flipping through pages in a manual or scrolling through a long document. While this approach can work for linear narratives, it poses challenges for technical documentation, where users often need to compare, reference, or locate specific details quickly.
+
+For example, if a user has to flip back and forth between sections to compare two related concepts or follow a multi-step process, the cognitive load increases, and the risk of errors or frustration grows. Temporal stacking can also make it harder for users to retain information, as they must rely on memory to connect ideas spread across different parts of the document.
+
+### Spatial Adjacency: Information Side by Side
+
+In contrast, **spatial adjacency** places related information side by side, allowing users to see and compare it simultaneously. This approach leverages the human brain’s ability to process visual information quickly and efficiently, reducing the need for users to rely on memory or navigate through multiple sections.
+
+As Tufte famously stated, *“Spatial adjacency is more powerful than temporal stacking.”* By presenting information in close proximity, you enable users to make immediate comparisons, spot patterns, and draw connections without the cognitive overhead of temporal navigation. This is especially valuable in technical writing, where users often need to reference multiple pieces of information at once, such as comparing data points, following a workflow, or troubleshooting an issue.
+
+### Why Spatial Adjacency Matters in Technical Writing
+
+Tufte’s insight has profound implications for how we structure and design technical documentation. Here’s why spatial adjacency is so effective:
+
+1. **Reduces Memory Load**: When information is presented side by side, users don’t have to remember details from one section to apply them in another. This is particularly important for complex tasks or comparisons.
+   
+2. **Enhances Usability**: Spatial adjacency makes it easier for users to navigate and locate information, especially when combined with tools like **indexes**, **search functions**, and **clear headings**.
+
+3. **Supports Quick Decision-Making**: By allowing users to see all relevant information at a glance, spatial adjacency enables faster, more informed decisions—whether they’re following a procedure, analyzing data, or solving a problem.
+
+### Applying Spatial Adjacency to Technical Documentation
+
+So, how can you apply Tufte’s concept of spatial adjacency to your technical writing? Here are some practical strategies:
+
+- **Use Tables and Charts**: When presenting comparative data or step-by-step instructions, use tables, charts, or diagrams to display information side by side. For example, instead of listing features in separate paragraphs, create a comparison table that highlights differences at a glance.
+  
+- **Group Related Content**: Organize related concepts, tasks, or reference materials into cohesive sections or panels. For instance, if you’re documenting a software feature, place the description, usage instructions, and troubleshooting tips in adjacent sections.
+
+- **Leverage Visual Design**: Use whitespace, headings, and visual cues to create clear distinctions between different pieces of information while keeping them close together. This helps users quickly scan and locate what they need.
+
+- **Incorporate Interactive Elements**: In digital documentation, use collapsible sections, tabs, or hover-over tooltips to provide additional context without disrupting the flow of information.
+
+### Example: Spatial Adjacency in Vega Documentation
+
+Imagine you’re documenting how to create a Vega visualization. Instead of spreading the steps across multiple pages (temporal stacking), you could use spatial adjacency to present the entire workflow on a single page:
+
+1. **SQL Query**: Display the SQL query used to extract the data, with annotations explaining each part.
+2. **Vega Specification**: Show the corresponding Vega JSON specification, with color-coded sections that map to the SQL query.
+3. **Visualization Output**: Include the rendered visualization alongside the code, allowing users to see the results immediately.
+
+This approach not only makes the documentation more intuitive but also empowers users to experiment and learn by seeing the direct relationship between the code and the output.
+
+### Conclusion
+
+Edward Tufte’s concept of spatial adjacency versus temporal stacking offers a powerful framework for improving the clarity and usability of technical documentation. By presenting related information side by side, you reduce cognitive load, enhance navigation, and empower users to make faster, more informed decisions. Whether you’re writing a user guide, creating a tutorial, or designing a reference manual, embracing spatial adjacency can help you create documentation that is not only easier to use but also more effective in helping users achieve their goals. As Tufte reminds us, *“Spatial adjacency greatly reduces the memory problems associated with making comparisons of small amounts of information stacked in time.”* So, the next time you’re organizing content, think spatially—your users will thank you.
 
 ## Topics as Structure
 
@@ -117,6 +235,160 @@ task
 ### Topic Checklist
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur aspernatur omnis iste. Voluptates, id inventore ea natus ab sed amet ipsa ratione sunt dignissimos. Soluta illum aliquid repellendus recusandae.
+
+## Topic-Oriented Documentation: Building Structure Through Conceptual and Procedural Topics
+
+Topic-oriented documentation has revolutionized technical writing by providing a clear, structured approach that separates different types of information. This methodology emerged as a response to traditional documentation that often mixed conceptual explanations with procedural instructions, creating confusion for readers.
+
+### The Birth of DITA
+
+In 2005, the Darwin Information Typing Architecture (DITA) was published as a framework to help authors create topic-based structured content. This standard, now managed by the Organization for the Advancement of Structured Information Standards (OASIS) DITA Technical Committee, has become a cornerstone for technical documentation professionals worldwide.
+
+### Before and After Topic-Oriented Documentation
+
+**Before:** Documentation typically combined concepts and tasks within the same sections, making it difficult for users to quickly find specific information they needed.
+
+**After:** Documentation clearly separates:
+- Conceptual information (what something is)
+- Task-based information (how to do something)
+
+This separation allows users to navigate directly to the information type they need at any given moment.
+
+### Key Properties of Effective Topics
+
+#### Modularity
+Each topic should be:
+- **Discrete:** Functions as a standalone unit of information
+- **Coherent:** Maintains internal consistency and logic
+- **Comprehensive:** Contains complete information on its subject while remaining comprehensible
+
+#### Independence
+Independent topics reduce complexity by being:
+- **Easy to create:** Authors can focus on one discrete subject
+- **Easy to change:** Updates affect only the relevant topic
+- **Easy to organize:** Clear relationships between topics can be established
+- **Easy to navigate:** Users can find exactly what they need
+
+### Primary Topic Types
+
+#### Concept Topics
+Provide descriptive background information that helps users understand the "what" and "why" behind features and functionality.
+
+```javascript
+// Example concept: Understanding Vega Specifications
+const vegaSpecificationConcept = {
+  "description": "A Vega specification is a JSON structure that defines visualization properties",
+  "components": ["data sources", "marks", "scales", "dimensions"]
+};
+```
+
+#### Task Topics
+Deliver procedural, step-by-step instructions that guide users through specific processes.
+
+```javascript
+// Example task: Creating a Basic Vega Visualization
+function createBasicVegaVisualization() {
+  // Step 1: Define your data source
+  const dataSource = defineDataSource("SELECT * FROM your_table");
+  
+  // Step 2: Set up visualization dimensions
+  const dimensions = setDimensions(480, 720);
+  
+  // Step 3: Configure marks and scales
+  const visualization = configurePlotElements(dataSource, dimensions);
+  
+  return visualization;
+}
+```
+
+#### Reference Topics
+Contain explanatory, structured information that serves as a resource for detailed specifications.
+
+```javascript
+// Example reference: Vega Scale Types
+const vegaScaleTypes = {
+  "quantitative": ["linear", "log", "power", "sqrt", "quantize"],
+  "discrete": ["ordinal", "threshold"],
+  "properties": {
+    "domain": "Input data range",
+    "range": "Output visualization range"
+  }
+};
+```
+
+By organizing documentation into these distinct topic types, technical writers can create content that's more accessible, maintainable, and useful for their audiences. Each topic serves a specific purpose and together they form a comprehensive information architecture.
+
+## Topic-Oriented Documentation: A Structured Approach to Clear Communication
+
+In the realm of technical writing, **topic-oriented documentation** has emerged as a best practice for organizing and presenting information in a way that is both user-friendly and efficient. Unlike traditional documentation, which often mixes conceptual and procedural content, topic-oriented documentation separates information into distinct **conceptual** and **procedural topics**, making it easier for users to find and understand the information they need.
+
+### The Evolution of Topic-Oriented Documentation
+
+In 2005, the **Darwin Information Typing Architecture (DITA)** was introduced as a standardized framework to help authors create structured, topic-based content. Managed by the **Organization for the Advancement of Structured Information Standards (OASIS) DITA Technical Committee**, DITA provides a robust set of guidelines for organizing documentation into modular, reusable topics. This approach not only improves the clarity and usability of documentation but also streamlines the writing and maintenance process.
+
+### Before and After: The Shift to Topic-Based Structure
+
+**Before DITA**, documentation often blended conceptual and procedural information, leading to confusion and inefficiency. For example, a user manual might combine an explanation of how a feature works (concept) with step-by-step instructions for using it (task). This mixed structure made it difficult for users to quickly locate the specific information they needed.
+
+**After DITA**, documentation is organized into distinct **topic types**, each serving a specific purpose:
+- **Concept Topics**: Provide descriptive background information, helping users understand the "why" and "what" behind a feature or process.
+- **Task Topics**: Offer procedural, step-by-step instructions, guiding users through the "how" of completing a specific action.
+- **Reference Topics**: Deliver explanatory, structured information, such as API references, command syntax, or technical specifications.
+
+This clear separation ensures that users can easily navigate to the type of information they need, whether they’re looking for an overview, a how-to guide, or detailed technical details.
+
+### Key Properties of Topic-Oriented Documentation
+
+Effective topic-oriented documentation is built on several core properties that enhance its usability and maintainability:
+
+1. **Modular**:
+   - **Discrete (Standalone)**: Each topic is self-contained, meaning it can be understood independently of other topics.
+   - **Coherent**: The content within a topic is logically organized and flows naturally.
+   - **Comprehensive/Comprehensible**: Topics provide enough detail to be useful without overwhelming the reader.
+
+2. **Independent**:
+   - **Reduced Complexity**: By breaking down information into smaller, focused topics, the overall complexity of the documentation is reduced.
+   - **Easy to Create**: Writers can focus on one topic at a time, simplifying the writing process.
+   - **Easy to Change**: Updates or revisions can be made to individual topics without affecting the entire document.
+   - **Easy to Organize (Relationships)**: Topics can be linked or grouped based on their relationships, creating a logical structure.
+   - **Easy to Navigate**: Users can quickly find and access the information they need, thanks to clear topic boundaries and navigation aids.
+
+### Topic Types and Their Roles
+
+To ensure clarity and usability, topic-oriented documentation categorizes content into specific **topic types**, each with a distinct purpose:
+
+1. **Concept Topics**:
+   - Provide descriptive background information.
+   - Explain the purpose, principles, or context of a feature or process.
+   - Example: "What is Vega and how does it work?"
+
+2. **Task Topics**:
+   - Offer procedural, step-by-step instructions.
+   - Guide users through completing a specific action or workflow.
+   - Example: "How to create a Vega visualization using SQL queries."
+
+3. **Reference Topics**:
+   - Deliver explanatory, structured information.
+   - Include technical details, such as API references, command syntax, or configuration options.
+   - Example: "Vega JSON specification reference guide."
+
+### Topic Checklist: Ensuring Quality and Consistency
+
+To maintain high-quality documentation, writers should follow a **topic checklist** when creating or reviewing topics. This checklist ensures that each topic adheres to the principles of topic-oriented documentation:
+
+- **Is the topic modular and standalone?**
+- **Is the content coherent and logically organized?**
+- **Does the topic provide enough detail to be comprehensive without being overwhelming?**
+- **Is the topic independent and easy to update or revise?**
+- **Are relationships between topics clearly defined and easy to navigate?**
+- **Does the topic align with its designated type (concept, task, or reference)?**
+- **Is the language clear, concise, and free of unnecessary jargon?**
+
+By adhering to these guidelines, technical writers can create documentation that is not only easier to maintain but also more effective in helping users achieve their goals.
+
+### Conclusion
+
+Topic-oriented documentation, supported by frameworks like DITA, represents a significant advancement in technical communication. By organizing content into discrete, purpose-driven topics, writers can create documentation that is clearer, more user-friendly, and easier to maintain. Whether you’re explaining a complex concept, guiding users through a task, or providing technical reference material, topic-oriented documentation ensures that your content is always focused, accessible, and impactful.
 
 ## Form and Function
 
@@ -160,6 +432,45 @@ Include error recognition and recovery activities in the instruction
 
 Make all learning activities self-contained and independent of sequence.
 
+## Learning Theory and Minimalism: Streamlining Technical Communication
+
+The rapid technological advancements of the 1990s brought with them a new challenge: how to effectively communicate complex technical information to a growing population of users. Initially, technical communicators relied on **manuals** to bridge this gap. However, these lengthy, dense documents often fell short of meeting users' needs. Readers wanted information that was quick to access, easy to understand, and immediately actionable—something traditional manuals struggled to deliver.
+
+Enter **John M. Carroll**, a pioneer in the field of technical communication. In 1998, Carroll introduced the concept of **minimalism**, a writing philosophy designed to streamline instruction and empower users to achieve their goals faster. At its core, minimalism is based on a simple yet powerful idea: **less is more**. By providing users with concise, focused content—less to read, less overhead, and fewer distractions—learners can accomplish more with greater efficiency (Carroll, 1984).
+
+### The Four Principles of Minimalism
+
+Carroll’s minimalist approach is built on four key principles, each aimed at enhancing the user’s learning experience and reducing unnecessary complexity:
+
+1. **Choose an Action-Oriented Approach**  
+   The first principle emphasizes getting users started on **meaningful tasks right away**. Instead of overwhelming learners with lengthy explanations or theoretical background, minimalist documentation focuses on immediate, hands-on activities. This approach not only engages users but also helps them build confidence as they see tangible results from their efforts.
+
+2. **Anchor the Tool in the Task Domain**  
+   The second principle encourages writers to **minimize passive learning**—like reading long paragraphs or watching lengthy tutorials—and instead let users **learn by doing**. By anchoring instructions in real-world tasks, users can fill in knowledge gaps naturally as they work. This principle ensures that documentation remains practical and relevant to the user’s goals.
+
+3. **Support Error Recognition and Recovery**  
+   Mistakes are an inevitable part of the learning process, and the third principle addresses this head-on. Minimalist documentation includes **error recognition and recovery activities**, helping users identify and correct mistakes quickly. This not only reduces frustration but also reinforces learning by teaching users how to troubleshoot and problem-solve independently.
+
+4. **Support Reading to Do, Study, and Locate**  
+   The fourth principle focuses on making learning activities **self-contained and independent of sequence**. Users should be able to read, study, or locate information as needed, without being forced to follow a rigid, linear structure. This flexibility allows users to tailor their learning experience to their specific needs, making the documentation more accessible and user-friendly.
+
+### Why Minimalism Matters
+
+Carroll’s minimalist approach revolutionized technical communication by shifting the focus from **comprehensive explanations** to **actionable, user-centric content**. In a world where time is precious and attention spans are short, minimalism ensures that users can quickly find the information they need and get back to their tasks.
+
+For example, instead of a 10-page manual explaining every feature of a software tool, minimalist documentation might provide a **quick-start guide** that walks users through a few key tasks. This not only speeds up the learning process but also reduces the cognitive load on the user, making it easier to retain and apply the information.
+
+### Applying Minimalism to Modern Documentation
+
+Today, the principles of minimalism are more relevant than ever. As technology continues to evolve at a breakneck pace, users demand documentation that is **fast, intuitive, and to the point**. Whether you’re writing a user guide, creating a tutorial, or developing an API reference, incorporating minimalist principles can help you create content that resonates with your audience.
+
+For instance, when documenting a tool like **Vega**, a minimalist approach might involve:
+- Providing a **quick-start example** that shows users how to create a basic visualization in just a few steps.
+- Including **error messages and troubleshooting tips** to help users resolve common issues.
+- Structuring content into **self-contained topics** that users can navigate independently, based on their needs.
+
+By embracing minimalism, technical communicators can create documentation that not only meets users’ needs but also enhances their overall experience. After all, in the fast-paced world of technology, the best documentation is the kind that gets out of the way and lets users **do more with less**.
+
 ## More Complications
 
 - Meaning and/or usability obscured by choice of structure
@@ -169,52 +480,91 @@ Make all learning activities self-contained and independent of sequence.
     - User vs. Maintainer
     - Beginner vs. Advanced
 
+## More Complications: When Structure and Content Miss the Mark
+
+Even with the best intentions, technical documentation can sometimes fall short of its goals. Poorly chosen structures, unnecessary distractions, and a lack of clarity about the target audience can all obscure the meaning and usability of documentation. These complications not only frustrate users but also undermine the effectiveness of the content. Let’s explore some common pitfalls and how to avoid them.
+
+### 1. **Meaning and Usability Obscured by Structure**
+
+The structure of your documentation plays a critical role in how easily users can find and understand the information they need. When the structure is overly complex, poorly organized, or misaligned with user expectations, it can obscure the meaning of the content and make it difficult to use.
+
+For example, burying critical information in long paragraphs or hiding it deep within nested sections forces users to spend unnecessary time searching for what they need. Similarly, mixing conceptual, procedural, and reference content without clear distinctions can confuse users who are looking for specific types of information.
+
+**Solution**: Adopt a **topic-oriented structure** that separates content into distinct, purpose-driven topics (e.g., concepts, tasks, and references). Use clear headings, tables of contents, and navigation aids to help users quickly locate the information they need.
+
+### 2. **Including Less Important Ideas (Distractions)**
+
+Another common issue is the inclusion of ideas or details that, while potentially interesting, are not essential to the user’s immediate needs. These distractions can derail the user’s focus and make it harder to extract the key information.
+
+For instance, adding lengthy historical background or tangential technical details to a task-oriented guide might overwhelm beginners who just want to complete a specific task. While such information can be valuable in certain contexts, it should be placed where it won’t interfere with the primary purpose of the documentation.
+
+**Solution**: Prioritize **user-centric content** by focusing on what the audience needs to know to achieve their goals. Save supplementary or advanced information for separate sections, appendices, or linked resources.
+
+### 3. **Failure to Identify the Target Audience**
+
+One of the most critical mistakes in technical writing is failing to clearly identify and address the **target audience**. Documentation that doesn’t account for the needs, knowledge level, or goals of its intended users is unlikely to be effective.
+
+- **User vs. Maintainer**: Are you writing for end-users who need to accomplish specific tasks, or for maintainers who need to understand the system’s inner workings? The content and tone will differ significantly depending on the audience.
+- **Beginner vs. Advanced**: Beginners may need step-by-step instructions, detailed explanations, and plenty of context, while advanced users may prefer concise, technical details and shortcuts.
+
+For example, a beginner’s guide to Vega might start with a simple example and explain each step in detail, while an advanced reference might focus on optimizing performance or customizing visualizations.
+
+**Solution**: **Define your audience** before you start writing. Create user personas to represent different segments of your audience, and tailor your content to meet their specific needs. Use clear labels or sections to distinguish between beginner-friendly and advanced content.
+
+### Avoiding Common Pitfalls
+
+To ensure your documentation remains clear, focused, and user-friendly, keep these best practices in mind:
+
+- **Simplify the structure**: Use a logical, topic-oriented approach to organize your content.
+- **Eliminate distractions**: Focus on what’s essential and move supplementary information to appropriate sections.
+- **Know your audience**: Clearly identify who you’re writing for and tailor your content to their needs and knowledge level.
+
+By addressing these complications head-on, you can create documentation that not only meets users’ needs but also enhances their overall experience. After all, the best documentation is the kind that **gets out of the way** and lets users focus on what really matters: achieving their goals.
+
 ## Down with the Details
 
 Low-level minimalism ... and more (the following)
 
 ### Simplify These Words
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur aspernatur omnis iste. Voluptates, id inventore ea natus ab sed amet ipsa ratione sunt dignissimos. Soluta illum aliquid repellendus recusandae.
+Clear and concise language is the cornerstone of effective technical writing. Simplifying complex words and phrases ensures that your documentation is accessible to a wide audience, regardless of their technical expertise. Avoid jargon and overly technical terms unless absolutely necessary, and always strive to make your content as straightforward as possible.
 
 ### Usage
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur aspernatur omnis iste. Voluptates, id inventore ea natus ab sed amet ipsa ratione sunt dignissimos. Soluta illum aliquid repellendus recusandae.
+Proper word usage is critical to conveying your message accurately. Misused words can confuse readers and undermine the credibility of your documentation. Always double-check definitions and context to ensure that your words align with their intended meaning. When in doubt, opt for simpler, more familiar terms.
 
 ### Needless Words
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur aspernatur omnis iste. Voluptates, id inventore ea natus ab sed amet ipsa ratione sunt dignissimos. Soluta illum aliquid repellendus recusandae.
+Eliminating unnecessary words streamlines your writing and makes it easier for readers to focus on the essential information. Look for redundancies, filler words, and phrases that don’t add value. For example, instead of saying “in order to,” simply use “to.” This not only saves space but also improves readability.
 
 ### Weasel Words
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur aspernatur omnis iste. Voluptates, id inventore ea natus ab sed amet ipsa ratione sunt dignissimos. Soluta illum aliquid repellendus recusandae.
+Weasel words are vague or ambiguous terms that weaken your writing and create uncertainty. Phrases like “somewhat,” “possibly,” or “it could be argued” can make your documentation seem less authoritative. Be direct and specific to build trust and clarity with your audience.
 
 ### Wordy Phrases
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur aspernatur omnis iste. Voluptates, id inventore ea natus ab sed amet ipsa ratione sunt dignissimos. Soluta illum aliquid repellendus recusandae.
-
-| col 1              | col 2           |
-| ------------------ | --------------- |
-| as well as         | by means of     |
-| in order to        | in the event of |
+Wordy phrases can bog down your writing and make it harder for readers to follow your message. Replace lengthy expressions with shorter, more precise alternatives. For instance, use “by” instead of “by means of” or “if” instead of “in the event of.” This keeps your writing tight and to the point.
 
 ### Prepositions
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur aspernatur omnis iste. Voluptates, id inventore ea natus ab sed amet ipsa ratione sunt dignissimos. Soluta illum aliquid repellendus recusandae.
+Prepositions are small but powerful words that define relationships between elements in a sentence. Overusing or misplacing prepositions can lead to awkward phrasing and confusion. Aim for clarity and simplicity when using prepositions, and avoid stacking them unnecessarily.
 
 ### Tense
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur aspernatur omnis iste. Voluptates, id inventore ea natus ab sed amet ipsa ratione sunt dignissimos. Soluta illum aliquid repellendus recusandae.
+Consistent verb tense is essential for maintaining clarity and coherence in technical writing. Whether you’re writing in past, present, or future tense, ensure that your choice aligns with the context and remains consistent throughout the document. This helps readers follow the timeline of events or instructions without getting lost.
 
 ### Voice
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur aspernatur omnis iste. Voluptates, id inventore ea natus ab sed amet ipsa ratione sunt dignissimos. Soluta illum aliquid repellendus recusandae.
+Active voice is generally preferred in technical writing because it makes sentences clearer and more direct. Passive voice can obscure the subject and make your writing feel impersonal or convoluted. Use active voice to emphasize the actor and make your instructions or explanations more engaging and actionable.
+
+---
+
+By focusing on these areas of consideration, you can create technical documentation that is clear, concise, and easy to understand. Simplifying your language, avoiding unnecessary words, and paying attention to grammar and structure will ensure that your content resonates with your audience and effectively communicates your message.
 
 ## Tools
 
 - grammarly
 - vale
-- (hemingway)
 
 Will let bad writing through.
 
